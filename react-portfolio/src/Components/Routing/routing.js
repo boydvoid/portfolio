@@ -4,6 +4,7 @@
 
 
 // on the develop branch
+// also on the feature branch from the develop branch
 import React, { Component } from 'react';
 //navbar
 import Nav from '../Navigation/nav'
