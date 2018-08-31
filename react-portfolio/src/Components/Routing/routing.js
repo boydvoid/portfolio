@@ -2,6 +2,9 @@
 //there is a page state that is set to 1 
 //that gets updated based on what the user clicks 
 
+
+// on the develop branch
+// also on the feature branch from the develop branch
 import React, { Component } from 'react';
 //navbar
 import Nav from '../Navigation/nav'
