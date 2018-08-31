@@ -1,12 +1,12 @@
 //the navigation bar for the portfolio
 
 import React, { Component } from "react";
-
+import './nav.css'
 class Nav extends Component {
   state = {};
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg nav-dark">
         <a class="navbar-brand" href="#">
           Robert Boyd
         </a>
@@ -24,13 +24,13 @@ class Nav extends Component {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active" onClick={this.props.showPage1}>
-                Page 1 
+
             </li>
             <li class="nav-item" onClick={this.props.showPage2}>
-                Page 2
+              Resume
             </li>
             <li class="nav-item" onClick={this.props.showPage3}>
-                Page 3
+              Contact
             </li>
           </ul>
         </div>

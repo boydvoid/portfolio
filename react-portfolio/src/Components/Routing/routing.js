@@ -7,14 +7,16 @@
 // also on the feature branch from the develop branch
 import React, { Component } from 'react';
 //navbar
-import Nav from '../Navigation/nav'
+import Nav from '../Navigation/nav';
+//Homepage
+import Homepage from '../Homepage/home';
 class Index extends Component {
     state = {
         //the state of the page, default set to the first page ie. 1
         page: 1
     }
 
-    //change state to the first page
+    //change state to the first page  
     changePageToOne = () => {
         console.log('Pressed 1')
         this.setState({
@@ -35,7 +37,6 @@ class Index extends Component {
             page: 3
         })
     }
-
     render() {
         //set the variable pageNumber to the page state
         const pageNumber = this.state.page;
@@ -45,11 +46,11 @@ class Index extends Component {
         //display different pages based on the page state
 
         if (pageNumber === 1) {
-            displayPage = <p>Page 1</p>
+            displayPage = <Homepage />
         } else if (pageNumber === 2) {
-            displayPage = <p>Page 2</p>
+            displayPage = <p>Contact</p>
         } else {
-            displayPage = <p>Page 3</p>
+            displayPage = <p>Resume</p>
         }
 
         return (
