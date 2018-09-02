@@ -1,0 +1,19 @@
+/* Table of Contents */
+
+
+
+.social-bar{
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 100vh;
+    background-color: black; 
+    top: 56px;
+    color: white;
+}
+
+.about-page{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
