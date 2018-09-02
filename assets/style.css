@@ -22,7 +22,7 @@ ul li {
 About Container
 --------------
 */
-.about-container{
+#about-container{
     position: absolute;
     right: 97%;
     background-color: black;
@@ -53,7 +53,7 @@ About Container
     padding-left: 15px;
 }
 
-.projects-container{
+#projects-container{
     position: absolute;
     background-color: black;
     color: white;
