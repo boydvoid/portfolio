@@ -1,11 +1,7 @@
 // the onclick for the other "pages"
-var about = document.getElementById('about-bar');
 var projects = document.getElementById('projects-bar');
-var aboutContainer = document.getElementById('about-container');
 var projectsContainer = document.getElementById('projects-container');
-about.onclick = function () {
-    togglePage(aboutContainer);
-}
+
 projects.onclick = function () {
     togglePage(projectsContainer);
 }
