@@ -47,6 +47,7 @@ About Container
     width: 3%;
     background-color: green;
     cursor: pointer;
+    z-index: 5;
 }
 
 .page-header-left:hover{
