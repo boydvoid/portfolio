@@ -5,8 +5,8 @@ var projects = document.getElementById('projects-container');
 about.onclick = function () {
     togglePage(about);
 }
-about.onclick = function () {
-    togglePage(about);
+projects.onclick = function () {
+    togglePage(projects);
 }
 // need to add "open" classes for each page
 // set the css of the about and projects containers onclick

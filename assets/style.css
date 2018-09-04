@@ -36,7 +36,7 @@ About Container
     color: white;
 }
 
-#about-container .toggle{
+#about-container.toggle{
     right: 3%;
 }
 /* Position the about text to the right of the container */
@@ -65,4 +65,9 @@ About Container
     background-color: black;
     color: white;
     top: 94vh;
+    height: 100vh;
+}
+
+#projects-container.toggle{
+    top: 10vh;
 }
