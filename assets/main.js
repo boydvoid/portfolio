@@ -3,14 +3,17 @@ var about = document.getElementById('about-container');
 var projects = document.getElementById('projects-container');
 
 about.onclick = function () {
-    showPages('about', about);
+    togglePage(about);
 }
+about.onclick = function () {
+    togglePage(about);
+}
+// need to add "open" classes for each page
 // set the css of the about and projects containers onclick
-function showPages(page, id) {
-    console.log('pressed');
-    if (page === 'about') {
-        id.style.right = '3.5%';
+function togglePage(id) {
+    if (!id.classList.contains('toggle')) {
+        id.classList.add('toggle');
     } else {
-        id.style.top = '6vh';
+        id.classList.remove('toggle');
     }
 }

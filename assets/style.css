@@ -1,5 +1,9 @@
 /* Table of Contents */
 
+* {
+    box-sizing: border-box;
+}
+
 body{
     overflow: hidden;
 }
@@ -32,6 +36,9 @@ About Container
     color: white;
 }
 
+#about-container .toggle{
+    right: 3%;
+}
 /* Position the about text to the right of the container */
 .page-header-left{
     position: absolute;
