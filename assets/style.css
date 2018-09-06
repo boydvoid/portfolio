@@ -1,8 +1,8 @@
 /* Table of Contents 
 1. HTML Tags 
-2. Navbar CSS
-3. Projects Container
-4.
+2. Bootstrap Overrides
+3. Navbar CSS
+4. Projects Container
 */
 
 * {
@@ -22,10 +22,18 @@ ul li {
     right: 0;
     width: 50px;
     height: 100vh;
-    background-color: black; 
+    background-color: #313131; 
     top: 56px;
     color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+/* 
+--------------
+Bootstrap Overides
+--------------
+*/
+
+
 /* 
 --------------
 Navbar CSS
@@ -46,6 +54,9 @@ Navbar CSS
 Projects Container
 --------------
 */
+#projects-column{
+    padding: 0px !important;
+}
 
 #projects-container{
     position: absolute;
@@ -53,8 +64,8 @@ Projects Container
     color: #313131;
     top: 94vh;
     height: 100vh;
-    box-shadow: 0 3px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     font-size: 15px;
+    transition: all .5s ease;
 }
 
 #projects-container.toggle{
@@ -66,4 +77,13 @@ Projects Container
     font-weight: 700;
     text-shadow: 0px 1px 1px #313131;
     font-size: 25px;
+}
+
+#projects-bar{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all .5s ease;
+}
+#projects-bar:hover{
+    background-color: #528EC2;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
