@@ -6,6 +6,7 @@ projects.onclick = function () {
     togglePage(projectsContainer);
 }
 // need to add "open" classes for each page
+
 // set the css of the about and projects containers onclick
 function togglePage(id) {
     console.log('toggle clicked');
