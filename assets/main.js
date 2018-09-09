@@ -2,10 +2,17 @@
 var projects = document.getElementById('projects-bar');
 var projectsContainer = document.getElementById('projects-container');
 
+/* document.getElementById function
+    makes document.getElementById => getId(id)
+*/
+function getId(id){
+    return document.getElementById(id);
+}
+// end getId   
+
 projects.onclick = function () {
     togglePage(projectsContainer);
 }
-// need to add "open" classes for each page
  
 // set the css of the about and projects containers onclick
 function togglePage(id) {
@@ -16,3 +23,5 @@ function togglePage(id) {
         id.classList.remove('toggle');
     }
 }
+
+
