@@ -9,6 +9,7 @@ function getId(id){
     return document.getElementById(id);
 }
 // end getId   
+
 projects.onclick = function () {
     togglePage(projectsContainer);
 }
@@ -23,4 +24,11 @@ function togglePage(id) {
     }
 }
 
+//Onclicks for social links
+getId('github').onclick = function () {
+    window.location.href = "https://www.github.com/robaboyd"
+}
 
+getId('twitter').onclick = function () {
+    window.location.href = "https://www.twitter.com/bboyd2008"
+}
