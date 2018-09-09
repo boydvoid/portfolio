@@ -9,7 +9,7 @@ function getId(id){
     return document.getElementById(id);
 }
 // end getId   
-
+// going to remove this in testing branch
 projects.onclick = function () {
     togglePage(projectsContainer);
 }
